@@ -18,7 +18,7 @@ public class LCAppConfig extends AbstractAnnotationConfigDispatcherServletInitia
 
 	@Override
 	protected String[] getServletMappings() {
-		String arr[] = {"/flames.com/*"};
+		String arr[] = {"/"};
 		return arr;
 	}
 
