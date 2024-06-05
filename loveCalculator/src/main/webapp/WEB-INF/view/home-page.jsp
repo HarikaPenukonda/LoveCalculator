@@ -24,6 +24,10 @@
 	</p>
 	
 	<input type="submit" value="calculate">
+	
+	<form:button ></form:button>
+	
+	<a href="/register-user">New User? Register Here</a>
 
 </form:form>	
 </div>

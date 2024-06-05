@@ -23,7 +23,7 @@ public class LCAppController {
 	
 	@RequestMapping("/register-user")
 	public String registerUser(@ModelAttribute("registerInfo") RegisterInfo registerInfo) {
-		return "register-success";
+		return "register-page";
 	}
 
 }
