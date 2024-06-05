@@ -10,7 +10,9 @@ public class LCAppController {
 	
 	
 	@RequestMapping("/")
-	public String myHomePage() {
+	public String myHomePage(Model model) {
+		UserInfo userInfo = new UserInfo();
+		model.addAttribute("userInfo", userInfo);
 		return "home-page";
 	}
 	
