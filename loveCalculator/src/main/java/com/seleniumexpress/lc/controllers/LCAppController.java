@@ -22,6 +22,7 @@ public class LCAppController {
 		System.out.println("crushname : " + crushName);
 		model.addAttribute("userName", userName);
 		model.addAttribute("crushName", crushName);
+		
 		return "show-result";
 	}
 
