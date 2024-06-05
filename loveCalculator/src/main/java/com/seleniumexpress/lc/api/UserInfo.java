@@ -6,11 +6,6 @@ public class UserInfo {
 	
 	private String crushName = "Miss.Y";
 	
-	
-
-	public UserInfo() {
-		System.out.println("userinfo constructor is called");
-	}
 
 	public String getUserName() {
 		return userName;

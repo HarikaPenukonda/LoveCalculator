@@ -1,7 +1,7 @@
 package com.seleniumexpress.lc.controllers;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.seleniumexpress.lc.api.UserInfo;
 
@@ -10,20 +10,12 @@ public class LCAppController {
 	
 	
 	@RequestMapping("/")
-	public String myHomePage(Model model) {
-		UserInfo userInfo = new UserInfo();
-		model.addAttribute("userInfo", userInfo);
+	public String myHomePage(@ModelAttribute("userInfo") UserInfo userInfo) {
 		return "home-page";
 	}
 	
 	@RequestMapping("/process-homepage")
-	public String showResult(UserInfo userInfo, Model model) {
-		
-		System.out.println("username : " + userInfo.getUserName());
-		System.out.println("crushname : " + userInfo.getCrushName());
-		model.addAttribute("userInfo", userInfo);
-		
-		
+	public String showResult(@ModelAttribute("userInfo") UserInfo userInfo) {
 		return "show-result";
 	}
 
