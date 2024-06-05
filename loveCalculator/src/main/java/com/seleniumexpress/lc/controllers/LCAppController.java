@@ -3,7 +3,7 @@ package com.seleniumexpress.lc.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import com.seleniumexpress.lc.api.UserInfo;
 
 @Controller
 public class LCAppController {
@@ -15,13 +15,12 @@ public class LCAppController {
 	}
 	
 	@RequestMapping("/process-homepage")
-	public String showResult(@RequestParam("userName") String userName, 
-			@RequestParam("crushName") String crushName, Model model) {
+	public String showResult(UserInfo userInfo, Model model) {
 		
-		System.out.println("username : " + userName);
-		System.out.println("crushname : " + crushName);
-		model.addAttribute("userName", userName);
-		model.addAttribute("crushName", crushName);
+		System.out.println("username : " + userInfo.getUserName());
+		System.out.println("crushname : " + userInfo.getCrushName());
+		model.addAttribute("userInfo", userInfo);
+		
 		
 		return "show-result";
 	}
