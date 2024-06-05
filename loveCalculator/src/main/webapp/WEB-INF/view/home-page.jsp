@@ -12,6 +12,7 @@
 <h1>Love Calculator</h1>
 <hr>
 <div align="center">
+<a href="/loveCalculator/register-user">New User? Register Here</a>
 <form:form action="process-homepage" method="get" modelAttribute="userInfo">
 	
 	<p>
@@ -24,10 +25,6 @@
 	</p>
 	
 	<input type="submit" value="calculate">
-	
-	<form:button ></form:button>
-	
-	<a href="/register-user">New User? Register Here</a>
 
 </form:form>	
 </div>

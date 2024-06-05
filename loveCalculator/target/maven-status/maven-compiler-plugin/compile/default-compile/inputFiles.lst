@@ -1,4 +1,6 @@
-/Users/matthewhinthorn/Desktop/seleniumexpress-springMVC-intermediate/loveCalculator/src/main/java/com/seleniumexpress/lc/controllers/TestController.java
-/Users/matthewhinthorn/Desktop/seleniumexpress-springMVC-intermediate/loveCalculator/src/main/java/com/seleniumexpress/lc/config/LoveCalculatorAppConfig.java
-/Users/matthewhinthorn/Desktop/seleniumexpress-springMVC-intermediate/loveCalculator/src/main/java/com/seleniumexpress/lc/config/LoveCalculatorApplicationConfigutation.java
-/Users/matthewhinthorn/Desktop/seleniumexpress-springMVC-intermediate/loveCalculator/src/main/java/com/seleniumexpress/lc/config/LCAppConfig.java
+/Users/matthewhinthorn/git/LoveCalculator/loveCalculator/src/main/java/com/seleniumexpress/lc/api/UserInfo.java
+/Users/matthewhinthorn/git/LoveCalculator/loveCalculator/src/main/java/com/seleniumexpress/lc/config/LoveCalculatorApplicationConfigutation.java
+/Users/matthewhinthorn/git/LoveCalculator/loveCalculator/src/main/java/com/seleniumexpress/lc/config/LCAppConfig.java
+/Users/matthewhinthorn/git/LoveCalculator/loveCalculator/src/main/java/com/seleniumexpress/lc/config/LoveCalculatorAppConfig.java
+/Users/matthewhinthorn/git/LoveCalculator/loveCalculator/src/main/java/com/seleniumexpress/lc/api/RegisterInfo.java
+/Users/matthewhinthorn/git/LoveCalculator/loveCalculator/src/main/java/com/seleniumexpress/lc/controllers/LCAppController.java

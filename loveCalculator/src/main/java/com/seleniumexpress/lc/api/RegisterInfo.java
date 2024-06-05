@@ -12,7 +12,7 @@ public class RegisterInfo {
 	
 	private String country;
 	
-	private String[] hobby;
+	private String hobby;
 	
 	private String gender;
 
@@ -48,11 +48,11 @@ public class RegisterInfo {
 		this.country = country;
 	}
 
-	public String[] getHobby() {
+	public String getHobby() {
 		return hobby;
 	}
 
-	public void setHobby(String[] hobby) {
+	public void setHobby(String hobby) {
 		this.hobby = hobby;
 	}
 
@@ -67,7 +67,7 @@ public class RegisterInfo {
 	@Override
 	public String toString() {
 		return "RegisterInfo [myName=" + myName + ", userName=" + userName + ", password=" + password + ", country="
-				+ country + ", hobby=" + Arrays.toString(hobby) + ", gender=" + gender + "]";
+				+ country + ", hobby=" + hobby + ", gender=" + gender + "]";
 	}
 	
 	
