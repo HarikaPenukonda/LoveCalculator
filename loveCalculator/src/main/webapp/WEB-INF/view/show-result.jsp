@@ -9,6 +9,7 @@
 <body align="center">
 	<h1>Love Calculator</h1>
 	<hr>
-	<p>showing the results</p>
+	<p>UserName : ${userName}</p>
+	<p>CrushName : ${crushName}</p>
 </body>
 </html>
