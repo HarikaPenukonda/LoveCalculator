@@ -5,14 +5,45 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<style type="text/css">
+	* {
+  	box-sizing: border-box;
+	}
+	#heading{
+		color: #FF1493;
+	}
+	#yn,#cn{
+		width: 25%;
+		padding: 12px 20px;
+		margin: 8px 0;
+  		box-sizing: border-box;
+  		outline: none;
+  		
+	}
+	
+	.container {
+  	border-radius: 5px;
+  	background-color: #FFF0F5;
+  	padding: 120px;
+	}
+	
+	#reg,#cal{
+		background-color: #FF1493;
+		padding: 10px;
+		border-radius: 5px;
+		border-color: #FF1493;
+	}
+	
+</style>
+
 <title>LoveCalculator</title>
 </head>
 <body align="center">
 
-<h1>Love Calculator</h1>
+<h1 id="heading">Love Calculator</h1>
 <hr>
-<div align="center">
-<a href="/loveCalculator/register-user">New User? Register Here</a>
+<div class="container">
+New User? <button id="reg"><a href="/loveCalculator/register-user">Register</a></button>
 <form:form action="process-homepage" method="get" modelAttribute="userInfo">
 	
 	<p>
@@ -24,7 +55,7 @@
 		<form:input id="cn" path="crushName"></form:input>
 	</p>
 	
-	<input type="submit" value="calculate">
+	<input id="cal" type="submit" value="calculate">
 
 </form:form>	
 </div>

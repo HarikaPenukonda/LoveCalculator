@@ -1,7 +1,5 @@
 package com.seleniumexpress.lc.api;
 
-import java.util.Arrays;
-
 public class RegisterInfo {
 	
 	private String myName;
@@ -12,6 +10,7 @@ public class RegisterInfo {
 	
 	private String country;
 	
+	//private String[] hobby;
 	private String hobby;
 	
 	private String gender;
@@ -48,6 +47,20 @@ public class RegisterInfo {
 		this.country = country;
 	}
 
+//	public String[] getHobby() {
+//		return hobby;
+//	}
+//
+//	public void setHobby(String[] hobby) {
+//		this.hobby = hobby;
+//	}
+	
+	
+
+	public String getGender() {
+		return gender;
+	}
+
 	public String getHobby() {
 		return hobby;
 	}
@@ -56,19 +69,11 @@ public class RegisterInfo {
 		this.hobby = hobby;
 	}
 
-	public String getGender() {
-		return gender;
-	}
-
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
 
-	@Override
-	public String toString() {
-		return "RegisterInfo [myName=" + myName + ", userName=" + userName + ", password=" + password + ", country="
-				+ country + ", hobby=" + hobby + ", gender=" + gender + "]";
-	}
+	
 	
 	
 

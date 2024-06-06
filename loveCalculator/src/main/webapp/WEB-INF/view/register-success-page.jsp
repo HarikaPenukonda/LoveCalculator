@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%-- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +16,12 @@
 		<p>UserName : ${registerInfo.userName}</p>
 		<p>Password : ${registerInfo.password}</p>
 		<p>Country: ${registerInfo.country}</p>
-		<p>Hobbies: ${registerInfo.hobby}</p>
+		<p>Hobbies : ${registerInfo.hobby}</p>
+		<%-- <p>Hobbies: </p>
+		<c:forEach var="temp" items="${registerInfo.hobby}">
+			${temp}
+		</c:forEach> --%>
+	
 		<p>Gender: ${registerInfo.gender}</p>
 
 	</div> 

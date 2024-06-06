@@ -6,12 +6,45 @@
 <head>
 <meta charset="UTF-8">
 <title>Registration Page</title>
+<style type="text/css">
+	* {
+  	box-sizing: border-box;
+	}
+	#hd{
+		color: #FF1493;
+	}
+	/* #mname,#uname,#pwd,#ctry{
+  		display: flex;
+  		flex-direction: row-reverse;
+  		
+	} */
+	
+	.container {
+  	border-radius: 5px;
+  	background-color: #FFF0F5;
+  	padding: 120px;
+  	padding-top: 10px;
+	}
+	
+	#reg{
+		background-color: #FF1493;
+		padding: 10px;
+		border-radius: 5px;
+		border-color: #FF1493;
+	}
+	
+	
+}
+	
+	
+</style>
+
 </head>
 <body align="center"> 
-	<h1>Love Calculator</h1>
+	<h1 id="hd">Love Calculator</h1>
 	<hr>
-	<div align="center">
-		<h2>Register Here</h2>
+	<div class="container">
+		<h2 id="hd">Register Here</h2>
 		<form:form action="register-success" method="get" modelAttribute="registerInfo">
 			
 			<p>
@@ -42,7 +75,7 @@
 				<label for="hby">Hobbies: </label>
 				Coding <form:checkbox id="hby" path="hobby" value="coding"/>
 				Reading <form:checkbox id="hby"  path="hobby" value="reading"/>
-				Arts <form:checkbox id="hby"  path="hobby" value="arts"/>
+				Travel <form:checkbox id="hby"  path="hobby" value="travel"/>
 				Other <form:checkbox id="hby"  path="hobby" value="other"/>
 			</p>
 			
@@ -53,7 +86,7 @@
 				
 			</p> 
 			
-			<input type="submit" value="register">
+			<input id="reg" type="submit" value="register">
 			
 		</form:form>
 	</div>
