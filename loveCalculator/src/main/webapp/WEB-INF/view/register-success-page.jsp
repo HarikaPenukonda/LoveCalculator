@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>Sucess</title>
 </head>
-<body align="center">
+<body style="align:center">
 	<h1>Love Calculator</h1>
 	<hr>
 		<div align="center">

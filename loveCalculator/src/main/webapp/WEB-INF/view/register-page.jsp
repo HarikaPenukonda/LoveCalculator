@@ -1,4 +1,4 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>  
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -40,7 +40,7 @@
 </style>
 
 </head>
-<body align="center"> 
+<body style="align:center"> 
 	<h1 id="hd">Love Calculator</h1>
 	<hr>
 	<div class="container">

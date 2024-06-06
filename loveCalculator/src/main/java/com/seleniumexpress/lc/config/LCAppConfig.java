@@ -12,6 +12,7 @@ public class LCAppConfig extends AbstractAnnotationConfigDispatcherServletInitia
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
+		@SuppressWarnings("rawtypes")
 		Class arr[] = {LoveCalculatorAppConfig.class};
 		return arr;
 	}

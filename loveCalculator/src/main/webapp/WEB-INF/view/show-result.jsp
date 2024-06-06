@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>LoveCalculator</title>
 </head>
-<body align="center">
+<body style="align:center">
 	<h1>Love Calculator</h1>
 	<hr>
 	<p>UserName : ${userInfo.userName}</p>

@@ -2,9 +2,9 @@ package com.seleniumexpress.lc.api;
 
 public class UserInfo {
 	
-	private String userName = "Mr.X";
+	private String userName;
 	
-	private String crushName = "Miss.Y";
+	private String crushName;
 	
 
 	public String getUserName() {
